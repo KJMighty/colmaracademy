@@ -1,3 +1,7 @@
+html{
+    font-size: 30px;
+}
+
 @font-face {
     font-family: 'Anton';
     font-style: normal;
@@ -13,14 +17,14 @@ body{
 .page-logo img{
     float: left;
     display:inline;
-    height: 50px;
+    height: 75px;
 }
 
 .page-logo p {
     float: left;
     display: inline;
-    font-size: 32px;
-    margin-top: 5px;
+    font-size: 1.6rem;
+    margin-top: 1px;
 }
 
 .grey{
@@ -36,4 +40,22 @@ body{
         padding-left: 16px;
         padding-right: 16px;
     }
+
+.banner {
+    width: 100%;
+    float: left;
+    margin: 10px;
+}
+
+.banner-image{
+    
+}
+
+.banner-header{
+    margin-top: 50px;
+    font-size: 1.6rem;
+}
+
+.banner-header, p {
+    font-size: 0.6rem;
 }
